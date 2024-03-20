@@ -6,6 +6,8 @@ import App from "./App.vue";
 import router from "@/router";
 
 // 全局样式
+import "@/style/fonts/LXGWBright-Medium/result.css";
+import "@/style/tailwind.css";
 import "@/style/global.scss";
 
 const app = createApp(App);
